@@ -15,8 +15,7 @@ pipeline{
 		}
 		stage("Deploy"){
 			steps{
-				echo "Deploying.....!"
-				echo "Deployed."
+				echo "python python.py"
 			}
 		}
 	}
