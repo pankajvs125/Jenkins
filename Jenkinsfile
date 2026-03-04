@@ -15,7 +15,7 @@ pipeline{
 		}
 		stage("Deploy"){
 			steps{
-				sh "python3 python.py"
+				bat "python python.py"
 			}
 		}
 	}
